@@ -19,18 +19,18 @@
           </a>
     
           <ul class="nav nav-pills">
-            <li class="nav-item"><button class="btn btn-primary">Home</button></li>
-            <li class="nav-item"><button class="btn">About</button></li>
-            <li class="nav-item"><button class="btn">Education</button></li>
-            <li class="nav-item"><button class="btn">Skills</button></li>
-            <li class="nav-item"><button class="btn">Projects</button></li>
-            <li class="nav-item"><button class="btn">Contact</button></li>
+            <li class="nav-item"><a href="#container" ><button class="btn btn-primary">Home</button></a></li>
+            <li class="nav-item"><a href="#home_banner_area" ><button class="btn">About</button></a></li>
+            <li class="nav-item"><a href="#education" ><button class="btn">Education</button></a></li>
+            <li class="nav-item"><a href="#skills" ><button class="btn">Skills</button></a></li>
+            <li class="nav-item"><a href="#education" ><button class="btn">Projects</button></a></li>
+            <li class="nav-item"><a href="#contact" ><button class="btn">Contact</button></a></li>
           </ul>
         </header>
       </div>
   <section class="home_banner_area">
-  <div class="banner_inner">
-    <div class="container">
+  <div class="container-fluid">
+    <div class="banner_inner">
       <div class="row">
         <div class="col-lg-6">
           <div class="home_left_img">
@@ -44,7 +44,7 @@
             <p>Iam an Aspiring Front End developer who has good skills in HTML5, CSS3, Boostrap5, JavaScript. Explore more about me!!</p>
             <div class="btn_res">
               <a href="./Assets/venu sir.docx" download="My_Resume"><button class="btn btn-primary">My Resume</button></a>
-            <button class="btn btn-primary">Contact me</button>
+            <button class="btn">Contact me</button>
             </div>
           </div>
             
@@ -53,6 +53,98 @@
     </div>
         </div>
     </section>
+    <hr>
+
+<section id="education">
+  <div class="container-fluid">
+      <h2 style="text-align:center">Education Details</h2>
+      <table class="table table-hover m-30 table-responsive-lg table-striped">
+        <thead>
+          <tr class="table-primary">
+            <th>#</th>
+            <th>Course</th>
+            <th>College name</th>
+            <th>Year</th>
+            <th>percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>B.Tech-CSE</td>
+            <td>Aurora's Technological And Research Institute, Hyderabad</td>
+            <td>2020-2023</td>
+            <td>64.2%</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Diploma-Mech</td>
+            <td>Vivekananda Collge of polytechnic, Mancherial</td>
+            <td>2016-2020</td>
+            <td>74.2%</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Class X</td>
+            <td>Zilla parishad high school Anthergoan, Peddapalli</td>
+            <td>2015-2016</td>
+            <td>70%</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  </section>
+<hr>
+
+<section id="skills">
+  <div class="container-fluid">
+  <h2 style="text-align:center">Skills and Strengths</h2>
+  <br>
+    <div class="progress">
+    <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML5</div>
+    </div><br>
+   <div class="progress">
+    <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS3</div>
+    </div><br>
+    <div class="progress">
+    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">BootStrap5</div>
+    </div><br>
+    <div class="progress">
+    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+    </div><br>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 style="text-align: center;">Contact Me For more Info!!</h2><br>
+  <div class="form">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Your Full Name</label>
+    </div>
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Your Email Address </label>
+    </div><br>
+
+    <div class="form-floating">
+      <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Enter Your Mobile Number</label>
+    </div><br>
+
+    <div class="form-floating">
+      <input type="textarea" class="form-control" id="floatingPassword" placeholder="Password" minlength="200">
+      <label for="floatingPassword">Reason For Contact</label>
+    </div><br>
+
+    <button class="btn btn-primary">Contact</button>
+  </div>
+  
+
+
+
+
+</section>
 
 
 
