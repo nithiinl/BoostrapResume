@@ -1,5 +1,11 @@
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
 
 #icon{
     border-radius: 50px;
@@ -10,4 +16,18 @@
     color: #fff;
     background-color: #0d6efd;
     border-color: #0d6efd;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.form{
+    width: 100%;
+    margin: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 0 ;
+    padding-left: 450px;
+    padding-right: 450px;
 }
